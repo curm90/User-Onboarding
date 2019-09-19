@@ -1,5 +1,6 @@
 import React from 'react';
 import { Formik, Field, Form } from 'formik';
+import * as yup from 'yup';
 
 const UserForm = props => {
   return (
